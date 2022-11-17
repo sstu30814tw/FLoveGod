@@ -1,0 +1,574 @@
+/* ������ */
+.backgroundImge {
+
+    padding-top: 9rem;
+    background: url("../../image/index/bg-masthead.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.inZoom {
+
+    animation: fadein 5s ease;
+    margin: 0%;
+    padding: 0%;
+}
+
+.inZoom2 {
+
+    animation: fadein 9s ease;
+    margin: 0%;
+    padding: 0%;
+}
+
+.outZoom {
+
+    animation: fadeout 7s ease;
+    margin: 0%;
+    padding: 0%;
+}
+
+.row {
+    --bs-gutter-x: 1.0rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+/* ������ */
+.drawBig {
+    width: 60vw;
+    height: 60vh;
+    position: relative;
+    padding: 0px;
+
+}
+
+/* 銝剖亢���� */
+.imgcenter {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+
+}
+
+/* 銝剖亢���������
+������� 摰�� */
+.drawBigText {
+    word-wrap: break-word;
+    overflow: hidden;
+    word-break: normal;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    max-height: 100%;
+    z-index: 0;
+    left: 0px;
+    top: 10%;
+}
+
+#s {
+    margin: 0%;
+
+}
+
+#s2 {
+    word-wrap: break-word;
+    word-break: normal;
+    padding: 1%;
+}
+
+/* 憪餌楠蝐方帘 */
+h1 {
+    margin: 0px;
+}
+
+.imgdown {
+    position: relative;
+    width: 5vw;
+    height: 50%;
+    margin: 0px auto;
+}
+
+/* 銝撠�� */
+.downimg {
+    width: auto;
+    height: auto;
+    padding: 5%;
+
+}
+
+.drawSmallText {
+    /* overflow: hidden; */
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+    top: 33%;
+    left: 0%;
+
+}
+
+@media screen and (max-width:768px) {
+    #idimg {
+        width: 50%;
+        /* background-color: red; */
+        /* border: solid 4px red; */
+    }
+}
+
+
+.draw {
+    width: 18%;
+    height: auto;
+    padding: 0%;
+
+
+}
+
+.outcenterimg {
+    height: 60vh;
+    width: auto;
+}
+
+.incenterimg {
+    height: 100%;
+    width: auto;
+}
+
+.noCenterImg {
+    display: none;
+}
+
+.nobigCard {
+    display: none;
+}
+
+.bigCard {
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 1rem auto;
+}
+
+/*========蝐方帘��========*/
+.remember {
+    margin-bottom: 20px;
+}
+
+.modal-body form .btn {
+    width: 100%;
+    font-size: 25px;
+
+}
+
+
+h3 {
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.modal-content {
+    background: url("../../image/draw/poem.png");
+    background-size: cover;
+    width: 100%;
+
+    padding-left: 8%;
+    padding-right: 8%;
+    /* margin: 3rem; */
+    border-style: hidden;
+
+}
+
+.modal-body form .btn {
+    width: 100%;
+    font-size: 25px;
+    color: white;
+}
+
+.paper {
+    max-width: 50%;
+    width: 30%;
+    height: auto;
+    padding: 0%;
+}
+
+
+.centerback {
+
+    background: url("../../image/draw/drawBig.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 70vh;
+    max-width: 60vw;
+    margin: 0px auto;
+    position: relative
+}
+
+h1 {
+
+    padding-top: 7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* button 閮剖�� */
+
+
+
+.bubbly-button {
+    font-family: "Helvetica", "Arial", sans-serif;
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 2em;
+    /* margin-top: 100px;
+    margin-bottom: 60px; */
+    -webkit-appearance: none;
+    appearance: none;
+    background: url("../../image/draw/btn.png");
+
+    color: black;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+    /* box-shadow: 0 2px 25px rgb(73, 61, 0); */
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+    position: absolute;
+
+    bottom: 0.1rem;
+
+    transform: translate(-50%, -50%);
+
+}
+
+
+.bubbly-button:focus {
+    outline: 0;
+}
+
+.bubbly-button:before,
+.bubbly-button:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 140%;
+    height: 100%;
+    left: -20%;
+    z-index: -1000;
+    transition: all ease-in-out 0.5s;
+    background-repeat: no-repeat;
+}
+
+.bubbly-button:before {
+    display: none;
+    top: -75%;
+    background-image: radial-gradient(circle, #c5d2da 20%, transparent 20%), radial-gradient(circle, transparent 20%, #c5d2da 20%, transparent 30%), radial-gradient(circle, #c5d2da 20%, transparent 20%), radial-gradient(circle, #c5d2da 20%, transparent 20%), radial-gradient(circle, transparent 10%, #c5d2da 15%, transparent 20%), radial-gradient(circle, #c5d2da 20%, transparent 20%), radial-gradient(circle, #c5d2da 20%, transparent 20%), radial-gradient(circle, #c5d2da 20%, transparent 20%), radial-gradient(circle, #c5d2da 20%, transparent 20%);
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+}
+
+.bubbly-button:after {
+    display: none;
+    bottom: -75%;
+    background-image: radial-gradient(circle, #c5d2da 20%, transparent 20%), radial-gradient(circle, #c5d2da 20%, transparent 20%), radial-gradient(circle, transparent 10%, #c5d2da 15%, transparent 20%), radial-gradient(circle, #c5d2da 20%, transparent 20%), radial-gradient(circle, #c5d2da 20%, transparent 20%), radial-gradient(circle, #c5d2da 20%, transparent 20%), radial-gradient(circle, #c5d2da 20%, transparent 20%);
+    background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+}
+
+.bubbly-button:active {
+    transform: scale(0.9) translate(-50%, -50%);
+    background-color: #c5d2da;
+    box-shadow: 0 2px 25px rgba(0, 45, 123, 0.2);
+
+}
+
+.bubbly-button.animate:before {
+    display: block;
+    animation: topBubbles ease-in-out 0.75s forwards;
+}
+
+.bubbly-button.animate:after {
+    display: block;
+    animation: bottomBubbles ease-in-out 0.75s forwards;
+}
+
+@keyframes topBubbles {
+    0% {
+        background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+    }
+
+    50% {
+        background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+    }
+
+    100% {
+        background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+}
+
+@keyframes bottomBubbles {
+    0% {
+        background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+    }
+
+    50% {
+        background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+    }
+
+    100% {
+        background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+
+    }
+}
+
+/* ��瞍筑 */
+:root {
+    --duration: 20s;
+    --delay: 20s;
+}
+
+html {
+
+    animation: shrink var(--duration) var(--delay) linear infinite;
+}
+
+.moveback {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    animation: spin var(--duration) var(--delay) linear infinite;
+    transform-style: preserve-3d;
+    /* perspective: 25rem; */
+}
+
+.move {
+    --duration: 40s;
+    --name: float-up-1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5vw;
+    transform: translateY(200vh);
+    animation: var(--name) var(--duration) linear infinite;
+    z-index: 1;
+}
+
+.move2 {
+    --duration: 40s;
+    --name: float-up-1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3vw;
+    transform: translateY(200vh);
+    animation: var(--name) var(--duration) linear infinite;
+    z-index: 1;
+}
+
+.move3 {
+    --duration: 40s;
+    --name: float-up-1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8vw;
+    transform: translateY(200vh);
+    animation: var(--name) var(--duration) linear infinite;
+    z-index: 1;
+}
+
+img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+img:nth-child(2) {
+    animation-delay: -3s;
+}
+
+img:nth-child(3) {
+    animation-delay: -6s;
+}
+
+img:nth-child(4) {
+    animation-delay: -9s;
+}
+
+img:nth-child(5) {
+    animation-delay: -12s;
+}
+
+img:nth-child(6) {
+    animation-delay: -15s;
+}
+
+img:nth-child(7) {
+    animation-delay: -18s;
+}
+
+img:nth-child(8) {
+    animation-delay: -21s;
+}
+
+img:nth-child(9) {
+    animation-delay: -24s;
+}
+
+img:nth-child(10) {
+    animation-delay: -27s;
+}
+
+img:nth-child(1) {
+    --name: float-up-1;
+    --duration: calc(20s * 1);
+    left: 0vw;
+    z-index: -1;
+}
+
+img:nth-child(2) {
+    --name: float-up-3;
+    --duration: calc(20s * 3);
+    left: 10vw;
+    z-index: -3;
+}
+
+img:nth-child(3) {
+    --name: float-up-2;
+    --duration: calc(20s * 2);
+    left: 90vw;
+    z-index: -2;
+}
+
+img:nth-child(4) {
+    --name: float-up-1;
+    --duration: calc(20s * 1);
+    left: 36vw;
+    z-index: -1;
+}
+
+img:nth-child(5) {
+    --name: float-up-3;
+    --duration: calc(20s * 3);
+    left: 62vw;
+    z-index: -3;
+}
+
+img:nth-child(6) {
+    --name: float-up-2;
+    --duration: calc(20s * 2);
+    left: 15vw;
+    z-index: -2;
+}
+
+img:nth-child(7) {
+    --name: float-up-2;
+    --duration: calc(20s * 2);
+    left: 55vw;
+    z-index: -2;
+}
+
+img:nth-child(8) {
+    --name: float-up-3;
+    --duration: calc(20s * 3);
+    left: -20vw;
+    z-index: -3;
+}
+
+img:nth-child(9) {
+    --name: float-up-1;
+    --duration: calc(20s * 1);
+    left: 68vw;
+    z-index: -1;
+}
+
+img:nth-child(10) {
+    --name: float-up-2;
+    --duration: calc(20s * 2);
+    left: 0vw;
+    z-index: -2;
+}
+
+@keyframes float-up-3 {
+    from {
+        transform: translateY(200vh) translateZ(-50vh);
+    }
+
+    to {
+        transform: translateY(-200vh) translateZ(-50vh);
+    }
+}
+
+@keyframes float-up-2 {
+    from {
+        transform: translateY(150vh) translateZ(-25vh);
+    }
+
+    to {
+        transform: translateY(-150vh) translateZ(-25vh);
+    }
+}
+
+@keyframes float-up-1 {
+    from {
+        transform: translateY(100vh);
+    }
+
+    to {
+        transform: translateY(-100vh);
+    }
+}

@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.all_border {
+	font-family: Arial, Helvetica, sans-serif;
+	/* background: rgb(171, 150, 108);
+   						 background-attachment: fixed;
+   						 display: flex;
+   						 flex-direction: column; */
+	margin: 0 auto;
+	background-image: url(../../image/donation/drawBig.png);
+	height: 70vh;
+	width: auto;
+	padding: 0%;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+}
+
+.backgroundImge {
+	padding-top: 7.5rem;
+	background: url();
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.donationMessage h1{
+	padding-top: 12rem;
+	
+}
+
+.button1{
+	margin: 12rem 0 0 0;
+}
+

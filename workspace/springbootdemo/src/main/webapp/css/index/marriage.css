@@ -1,0 +1,123 @@
+/* ������ */
+.backgroundImge {
+    padding-top: 9rem;
+    background: url("../../image/index/bg-masthead2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.inZoom {
+
+    animation: fadein 15s ease;
+    margin: 0%;
+    padding: 0%;
+}
+
+.outZoom {
+
+    animation: fadeout 15s ease;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* ������ */
+.drawBig {
+    width: 1000vw;
+    height: auto;
+    position: relative;
+    padding: 0px;
+
+}
+
+/* 銝剖亢���� */
+.imgcenter {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+
+}
+
+/* 銝剖亢���������
+������� 摰�� */
+.drawBigText {
+    word-wrap: break-word;
+    overflow: hidden;
+    word-break: normal;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    max-height: 100%;
+    font-size: large;
+    z-index: 0;
+    left: 0px;
+    top: 10%;
+
+}
+
+/* 憪餌楠蝐方帘 */
+h1 {
+    margin: 0px;
+}
+
+.imgdown {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin: 0px auto;
+}
+
+/* 銝撠�� */
+.downimg {
+    width: 30vw;
+    height: auto;
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+
+}
+
+.drawSmallText {
+    /* overflow: hidden; */
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+
+    top: 33%;
+    left: 0%;
+
+}
+

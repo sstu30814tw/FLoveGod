@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.masthead {
+	padding-top: 5rem
+}
+
+.all_border {
+	font-family: Arial, Helvetica, sans-serif;
+	/* background: rgb(171, 150, 108);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column; */
+	margin: 0 auto;
+	background-image: url(../../image/donation/drawBig.png);
+	height: 70vh;
+	/* 	height: 75vh; */
+	width: auto;
+	padding: 0%;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+}
+
+a {
+	color: skyblue;
+	font-size: 1rem;
+	text-decoration: none;
+}
+
+.Payment_border form {
+	/* background: aquamarine; */
+	/*     background-image: url(../../image/donation/temple2_02.jpg); */
+	background-size: cover;
+	/* background-size可以將背景圖片的大小放大至容器大小並填滿 */
+	display: flex;
+	flex-direction: column;
+	padding: 0 6rem 0 0;
+	width: auto;
+	height: 100%;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.form-contol {
+	width: 100%;
+	height: 2.2rem;
+	border-radius: 0.2rem;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	outline: none;
+	margin: 0.6rem;
+}
+
+.form-folat_mb2 {
+	margin: 0.3rem;
+	text-align: center;
+}
+
+button.ghost {
+	background: transparent;
+	/* border-color: #fff; */
+	/* border: 1px solid #fff; */
+	outline: none;
+	width: 5rem;
+	border-radius: 1rem;
+	transition: all 800ms ease-in;
+	/* 轉變 ease-in緩入 */
+	margin: 0.6rem 0;
+	padding: 0.5rem 0;
+	/* color: #fff; */
+	font-size: 0.6rem;
+}
+
+button.ghost:active {
+	transform: scale(0.95, 0.95);
+}
+
+.Payment_border {
+/* 	position: absolute; */
+/* 	top: 0; */
+/* 	left: 0; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2rem auto auto ;
+}
+
+.masthead2 {
+	padding-top: 7.5rem
+}
+
+.TitleThank h2{
+	margin: 2rem auto auto auto ;
+}
+
+.form {
+	margin: 10px;
+/* 	background-color: rgba(240, 248, 255, 0.445); */
+	caret-color: auto;
+	/* 預設 */
+	/* 透明 */
+	caret-color: #FF1744;
+	/* 指定色 */
+	outline: none;
+	/* 外框效果 */
+}
+
+.form input{
+	
+	width:30vw;
+}
+
+
+
+.button1 {
+	font-family: "Helvetica", "Arial", sans-serif;
+	display: inline-block;
+	font-size: 1em;
+	padding: 0.5em 0.5em;
+	-webkit-appearance: none;
+	appearance: none;
+/* 	background: url(${contextRoot}/image/donation/drawCenter.png); */
+	color: black;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+	/* box-shadow: 0 2px 25px rgb(73 61 0); */
+	box-shadow: 5px 5px 2px 1px rgb(0 0 0/ 20%);
+	position: absolute;
+	bottom: 5rem;
+	transform: translate(-50%, -50%);
+	left: 40%;
+	width: 150px;
+	height: auto;
+}
+
+.button2 {
+	height: auto;
+	font-family: "Helvetica", "Arial", sans-serif;
+	display: inline-block;
+	font-size: 1em;
+	padding: 0.5em 0.5em;
+	-webkit-appearance: none;
+	appearance: none;
+/* 	background: url(${contextRoot}/image/donation/drawCenter.png); */
+	color: black;
+	border-radius: 4px;
+	width: 150px;
+	cursor: pointer;
+	transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+	/* box-shadow: 0 2px 25px rgb(73 61 0); */
+	box-shadow: 5px 5px 2px 1px rgb(0 0 0/ 20%);
+	position: absolute;
+	bottom: 5rem;
+	transform: translate(-50%, -50%);
+	left: 60%;
+}

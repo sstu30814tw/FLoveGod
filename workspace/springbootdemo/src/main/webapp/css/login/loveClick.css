@@ -1,0 +1,40 @@
+
+/* 滑鼠點擊有愛心特效 */
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+}
+
+.content-wrap {
+  height: 80%;
+  /* background-color: #000; */
+  background-color: #FFE4E1;
+  color: #fff;
+  user-select: none;
+}
+
+.like-wrap {
+  height: 20%;
+  font-size: 20px;
+  color: #ccc;
+  cursor: pointer;
+  user-select: none;
+}
+
+.like-active {
+  color: red;
+}
+
+.like {
+  position: absolute;
+  color: #ccc;
+  font-size: 20px;
+  user-select: none;
+}

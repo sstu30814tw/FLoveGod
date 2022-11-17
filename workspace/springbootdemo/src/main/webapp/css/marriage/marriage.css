@@ -1,0 +1,266 @@
+/* ������ */
+.backgroundImge {
+    padding-top: 9rem;
+    background: url("../../image/index/bg-masthead2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#centerP {
+    margin-top: 30%;
+	padding : 2%;
+}
+
+.outcenterimg {
+    height: 60vh;
+    width: auto;
+}
+
+.incenterimg {
+    height: 100%;
+    width: auto;
+}
+
+.noCenterImg {
+    display: none;
+}
+
+/* 瘛∪瘛∪瘛∪瘛∪ */
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.inZoom {
+
+    animation: fadein 15s ease;
+    margin: 0%;
+    padding: 0%;
+}
+
+.outZoom {
+
+    animation: fadeout 15s ease;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+.drawSmallText {
+    /* overflow: hidden; */
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+
+    top: 33%;
+    left: 0%;
+
+
+}
+
+:root {
+    font-size: 16px;
+}
+
+/* 蝒������� */
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.nobigCard {
+    display: none;
+}
+
+.bigCard {
+    max-width: 350px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 4rem auto;
+}
+
+.card-profile {
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 530px;
+    background: #fff;
+    /* border-radius: 10px; */
+    z-index: 1;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-profile:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    box-shadow: 0 36px 64px -34px black, 0 16px 14px -14px rgba(0, 0, 0, 0.6), 0 22px 18px -18px rgba(0, 0, 0, 0.4), 0 22px 38px -18px black;
+    transform: scaleX(0.7) scaleY(1.3) translateY(-15%);
+    z-index: -1;
+    opacity: 0.25;
+}
+
+.cardImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+.cardicon {
+    width: auto;
+    height: 60%;
+
+}
+
+.card-profile_visual {
+    height: 81%;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(to bottom, #3b3c3f, #263d85, #172551);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-profile_visual:before,
+.card-profile_visual:after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    background: no-repeat center center/cover;
+    opacity: 0.5;
+    mix-blend-mode: lighten;
+}
+
+.card-profile_visual:before {
+    filter: grayscale(100%);
+}
+
+.card-profile_visual:after {
+    z-index: 2;
+    mix-blend-mode: lighten;
+
+    opacity: 1;
+}
+
+.card-profile_user-infos {
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: calc(80% - 50px);
+    color: #fff;
+    background-color:rgba(0,255,0);
+    text-align: center;
+}
+
+
+
+.card-profile_user-infos a:after {
+    content: "";
+    font-style: normal;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/64/icon-add-f.svg");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center center;
+    left: 0;
+    top: 0;
+}
+
+.card-profile_user-infos .infos_name,
+.card-profile_user-infos .infos_nick {
+    display: block;
+    background-color:rgba(0,0,0,0.5);
+    clear: both;
+    padding: 0.5em 0;
+    padding-top: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    top: 8px;
+    font-weight: 800;
+}
+
+.card-profile_user-infos .infos_nick {
+    top: 32px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.card-profile_user-stats {
+    background: #fff;
+    float: left;
+    width: 100%;
+    height: calc(100% - 68% + 2px);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-profile_user-stats .stats-holder {
+    position: absolute;
+    width: 100%;
+    top: calc(70% + 4em);
+    display: flex;
+}
+
+.card-profile_user-stats .user-stats {
+    flex: 1;
+    text-align: center;
+}
+
+.card-profile_user-stats .user-stats strong {
+    display: block;
+    float: left;
+    clear: both;
+    width: 100%;
+    color: #B3B1B2;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+}

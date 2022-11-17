@@ -1,0 +1,41 @@
+#wrap{
+    /* background-color: aquamarine;  */
+    overflow: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: -2rem;
+    
+}
+
+.box1{
+    float:left;
+    margin-right: 10px;
+    
+
+}
+.box2{
+    float:left;
+}
+.box3{
+    float:left;
+    margin-left:10px;
+}
+.box4{
+    float:left;
+    margin-left:10px;
+    
+}
+#pageindex{
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.barimg{
+    width: 200px;
+    ;
+}
+#barname{
+	font-size: small;
+}

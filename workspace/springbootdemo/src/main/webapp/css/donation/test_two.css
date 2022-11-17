@@ -1,0 +1,35 @@
+  #code { 
+    cursor: pointer;
+    font-family:Arial; 
+    font-style:italic; 
+    font-weight:bold; 
+    border:0; 
+    letter-spacing:10px; 
+    color:blue;
+    background-color: aqua;
+    padding:4px;
+    width:100px;
+    height:30px;
+    text-align:center;
+    pointer-events: none;
+    /* 讓他直接點到後面 */
+  } 
+
+  .form-folat_mb3{
+    text-align:center;
+}
+
+.form-folat_mb3 #validate:active{
+  transform: scale(0.95,0.95);
+}
+
+.form-folat_mb3 #validate{
+    margin: 0.4rem ;
+    padding: 0.3rem 0.7rem;
+    background-color: aqua;
+    border: 1px solid #fff;
+    outline: none;
+  }
+
+
+

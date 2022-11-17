@@ -1,0 +1,295 @@
+/* 嚙踝蕭�謒� */
+header.masthead {
+  padding-top: 10rem;
+  /* padding-bottom: calc(10rem - 4.5rem);  */
+  padding-bottom: calc(30rem - 4.5rem);
+  background: url("../image/index/bg-masthead.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+/* .backgroundImge {
+  height: 100%;
+  padding-top: 9rem;
+  background: url("../../image/index/bg-masthead2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} */
+
+/* �� backgroundImge ���迨�獢� PS ����*/
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+}
+
+.bg-body {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity)) !important;
+}
+
+body {
+  background-image: url("../../image/index/bg-masthead2.gif");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+/*************************************/
+
+
+
+
+/* 嚙踐�蕭蹓蕭���嚙踐��蕭��ar�蹓橘蕭��蕭謍渡��� */
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #495057;
+  background-color: #495057;
+  border-color: #495057;
+  font-size: 220%;
+
+}
+
+/*蝣啣navbar 撠望����*/
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #1a5086;
+  /*font-size: 220%;*/
+}
+
+.imgrela {
+  position: relative;
+}
+
+.indeximg {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+/* ���嚙踐播����go嚙踝蕭嚙� */
+.imgcenter {
+  /* mix-blend-mode: multiply; */
+  /* max-width: 80vw; */
+
+  padding-bottom: 4rem;
+  /* margin: auto; */
+}
+
+.indeximg2 {
+  position: absolute;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  margin-top: 4rem;
+
+}
+
+/* ���貊��蕭嚙� */
+.small {
+  font-size: 0.875em;
+  color: black;
+  background: rgba(0, 0, 0, 0);
+}
+
+/* ���嚙踐撒嚙踐���蕭 */
+#indexmainNav .navbar-nav .nav-item .nav-link {
+  color: black;
+  font-family: masafont-Regular;
+  /* "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  /* �謅蕭��蕭謅撞 */
+  font-weight: 900;
+  font-size: 210%;
+  padding: 0rem;
+  margin: auto 4vw;
+}
+
+#indexmainNav {
+  background-image: url(../../image/index/bar.png);
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  width: auto;
+
+}
+
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: black;
+  font-family: masafont-Regular;
+  /* "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-weight: 900;
+
+  font-size: 1.8vw;
+  margin: 0px;
+}
+
+
+
+.barimg {
+
+  height: 4rem;
+  width: auto;
+  margin-left: 5rem;
+}
+
+#login,
+#register {
+  color: black;
+  font-family: masafont-Regular;
+  font-weight: 500;
+  font-size: 3vw;
+  padding: 0rem;
+  margin: auto 5vw;
+
+}
+
+@media (min-width: 576px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 300;
+    font-size: 1.7vw;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 500;
+    font-size: 1.7vw;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 900;
+    font-size: 2vw;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 900;
+    font-size: 1.8vw;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 900;
+    font-size: 1.8vw;
+    margin: 0px;
+  }
+}
+
+
+
+@media (max-width: 575.98px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 300;
+    font-size: 1.7vw;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 500;
+    font-size: 1.6vw;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 600;
+    font-size: 1.7vw;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 900;
+    font-size: 1.7vw;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 1194.98px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 900;
+    font-size: 1.6vw;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 1158.98px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 900;
+    font-size: 1.6vw;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 1156.98px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 900;
+    font-size: 1.7vw;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 900;
+    font-size: 1.7vw;
+    margin: 0px;
+
+  }
+}
+
+/* 撠汗���葬撠����� */
+.my-2 {
+  margin-top: 0.0rem !important;
+  margin-bottom: 0.0rem !important;
+
+}
+
+#mainNav {
+  background-image: url(../../image/index/bar.png);
+  /* background-position: inherit;*/
+  background-repeat: repeat-x;
+  background-attachment: scroll;
+  width: auto;
+  background-size: 175vmax;
+
+}

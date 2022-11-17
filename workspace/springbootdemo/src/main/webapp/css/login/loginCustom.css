@@ -1,0 +1,74 @@
+/* 自創修改CSS */
+
+.btn-loginColor {
+  color: #fff;
+  /* background-color: #981E61;
+  border-color: #981E61; */
+  background-color: #bd1553;
+  border-color: #bd1553;
+
+}
+
+.btn-switchColor {
+  color: #fff;
+  /* background-color: #FFB8CE;
+  border-color: #FFB8CE; */
+  background-color: #bd1553;
+  border-color: #bd1553;
+}
+
+
+.font {
+  display: block;
+  /* font-size: 2em; */
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.font2 {
+  display: block;
+  /* font-size: 1.5em; */
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+/* 註冊會員 */
+
+.tableText {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: masafont-Regular;
+  /* font-weight: 500; */
+  line-height: 1.2;
+  font-size: 30px;
+  /* text-align-last: left; */
+  /* float: left; */
+}
+
+.table {
+  padding-right: 20px;
+}
+
+
+/* 背景顏色 */
+.bg-gradient-primary {
+  /* background-color: #4e73df;
+  background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+  background-color: #FFE4E1;
+  background-image: linear-gradient(180deg, #FFE4E1 10%, #FFE4E1 100%);
+  background-size: cover; */
+  /* padding-top: 9rem; */
+  background: url("../../image/index/bg-masthead2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0;
+  margin-top: 0;
+}
